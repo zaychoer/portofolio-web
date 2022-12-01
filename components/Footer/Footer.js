@@ -1,7 +1,11 @@
-import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import React from 'react';
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+} from 'react-icons/ai';
 
-import { SocialIcons } from "../Header/HeaderStyles";
+import { SocialIcons } from '../Header/HeaderStyles';
 import {
   CompanyContainer,
   FooterWrapper,
@@ -12,7 +16,7 @@ import {
   Slogan,
   SocialContainer,
   SocialIconsContainer,
-} from "./FooterStyles";
+} from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -20,7 +24,9 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+6285715834707">+62 857-1583-4707</LinkItem>
+          <LinkItem href="tel:+6285715834707">
+            +62 857-1583-4707
+          </LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -31,7 +37,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          {/* <Slogan>Innovating one project at a time</Slogan> */}
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/zaychoer">
