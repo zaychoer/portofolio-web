@@ -1,5 +1,9 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import {
+  DiFirebase,
+  DiReact,
+  DiGoogleCloudPlatform,
+} from 'react-icons/di';
 import {
   Section,
   SectionDivider,
@@ -29,8 +33,10 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Rails <br />
-            NextJs <br />
+            HTML & CSS <br />
+            Tailwind CSS <br />
+            JavaScript <br />
+            TypeScript <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -40,22 +46,25 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Rails <br />
-            NestJs <br />
-            Databases (Postgresql, MongoDB) <br />
+            Ruby <br />
+            JavaScript <br />
+            TypeScript <br />
+            GO <br />
+            Databases (SQL, NoSQL) <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      {/* <ListItem>
-        <DiZend size="3rem" />
+      <ListItem>
+        <DiGoogleCloudPlatform size="3rem" />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Cloud Service</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            AWS Cloud Service <br />
+            Vercel <br />
           </ListParagraph>
         </ListContainer>
-      </ListItem> */}
+      </ListItem>
     </List>
     <SectionDivider />
   </Section>

@@ -44,15 +44,15 @@ export const projects = [
 export const TimeLineData = [
   {
     year: 2019,
-    text: 'Started my journey & Workde as Rails Developer at PT. Dwidasa Samsara Indonesia for 3 months',
+    text: 'Started my journey & Workde as Ruby Developer at PT. Dwidasa Samsara Indonesia for 3 months',
   },
   {
     year: 2019,
-    text: 'Worked as a Rails Developer at Wellcode.io for +2 years',
+    text: 'Worked as a Sofware Engineer at Wellcode.io for +2 years',
   },
   {
     year: 2022,
-    text: 'Worked as a Backend Developer (using Nest.js) at Datasintesa',
+    text: 'Worked as a Backend Engineer at Datasintesa',
   },
   // { year: 2020, text: 'Shared my projects with the world' },
   // { year: 2021, text: 'Started my own platform' },
