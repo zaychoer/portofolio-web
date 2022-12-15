@@ -34,6 +34,15 @@ const Footer = () => {
             zaycho25@gmail.com
           </LinkItem>
         </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Source Code</LinkTitle>
+          <LinkItem
+            target="_blank"
+            href="https://github.com/adrianhajdin/portfolio_website"
+          >
+            From JSMastery
+          </LinkItem>
+        </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
